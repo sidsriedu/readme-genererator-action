@@ -8,9 +8,9 @@ git config --global --add safe.directory /github/workspace
 
 echo $(java -version 2>&1 | head -n 1)
 ls
-
+pwd
 javac /usr/bin/TextToMDConvertor.java
-java TextToMDConvertor
+java /usr/bin/TextToMDConvertor
 
 git add -A && git commit -m "Update readme"
 git push --set-upstream main origin
