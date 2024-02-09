@@ -7,6 +7,7 @@ git config --global user.email "${INPUT_EMAIL}"
 git config --global --add safe.directory /github/workspace
 
 echo $(java -version 2>&1 | head -n 1)
+echo ls -lr
 
 javac /usr/bin/TextToMDConvertor.java
 java TextToMDConvertor
