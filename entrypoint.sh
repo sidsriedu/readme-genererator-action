@@ -10,6 +10,8 @@ git config --global --add safe.directory /github/workspace
 javac TextToMDConvertor.java
 java TextToMDConvertor
 
+rm TextToMDConvertor.class
+
 git add -A && git commit -m "Update readme"
 git push --set-upstream origin main
 
