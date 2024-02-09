@@ -9,6 +9,10 @@ git config --global --add safe.directory /github/workspace
 echo $(java -version 2>&1 | head -n 1)
 ls
 pwd
+
+cd /usr/bin
+ls
+pwd
 javac /usr/bin/TextToMDConvertor.java
 java /usr/bin/TextToMDConvertor
 
